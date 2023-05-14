@@ -48,6 +48,7 @@ As an experienced data scientist, I specialize in machine learning, deep learnin
  ![Sysconverge](s.png)
 ![Sysconverge certificate](sysconverge.png)
 - MangoSciences project: Using AI to support affordability of oncology immunotherapy treatments (Collect Data from many resources, Working in modeling task, Helping in create survival models, Create a cox-time model to predict PFS).
+![Mando](m.png)
 
 #### Data Science and Business Analytics intern, Sparks Foundation, Singapore.
 ##### Juin 2022 - Juillet 2022
