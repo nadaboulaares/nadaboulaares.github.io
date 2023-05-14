@@ -8,7 +8,7 @@ As an experienced data scientist, I specialize in machine learning, deep learnin
 #### Lead ML Engineer, Omdena, New York, United States.
 ##### February 2023 - Nowe
 - Belyntic project: Development of Novel Self-adjuvant Vaccine for Progressive multifocal leukoencephalopathy.Coleading the deployment task Streamlit,FastAPI.
-![My Image](https://drive.google.com/file/d/1t5ebmmK_NJz9lLy5Fsy33tGDkS-DKrzx/view?usp=share_link)
+![](https://drive.google.com/file/d/1t5ebmmK_NJz9lLy5Fsy33tGDkS-DKrzx/view?usp=share_link)
 
 #### Data Science intern, Dance4Healing, California, United States.
 ##### August 2022 - Now
