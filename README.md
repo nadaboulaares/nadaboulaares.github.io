@@ -7,7 +7,7 @@ As an experienced data scientist, I specialize in machine learning, deep learnin
 ### Experience
 #### Lead ML Engineer, Omdena, New York, United States.
 ##### February 2023 - Nowe
-- Belyntic project: Development of Novel Self-adjuvant Vaccine for Progressive multifocal leukoencephalopathy.Coleading the deployment task Streamlit,FastAPI.
+- Belyntic project: Development of Novel Self-adjuvant Vaccine for Progressive multifocal leukoencephalopathy.Coleading IN the deployment task (Streamlit, FastAPI).
 ![](https://drive.google.com/file/d/1t5ebmmK_NJz9lLy5Fsy33tGDkS-DKrzx/view?usp=share_link)
 
 #### Data Science intern, Dance4Healing, California, United States.
@@ -18,7 +18,7 @@ As an experienced data scientist, I specialize in machine learning, deep learnin
 - Building a Recommendation System using Machine Learning: K-Means; Scipy (Exploring the database of Dance4healing in MongoDB and downloading datasets, Generating data, Visualising Data: Seaborn; matplotlib, Creating a machine learning model to recommend the group of video of dance session using emotion, duration, and energy level, Deploying the model using Flask, and Push the code to the organization Github.
 - Helping in creating a user dashboard using Figma and matplotlib, Seaborn Python (Designing a new desktop).
 
-#### Junior ML Engineer, Omdena, New York, United States.
+#### ML Engineer, Omdena, New York, United States.
 ##### April 2022 - February 2023
 - BigCodeGen project: Predicting Short-Term Traffic Flow Congestion on Urban Motorway Networks (Labeling datasets: image using Labelbox, Helping in create an object detection model using YOLOV7).
 - Dr CADx project: Reducing the Risk of Misdiagnosis of Chest X-rays with Deep Learning project (Collecting Data from many resources, joining EDA task).
