@@ -4,6 +4,7 @@
 
 ## Data Scientist
 ## Reach me [LinkedIn profile](https://www.linkedin.com/in/nada-boulares-83129214b/)  or [Gmail](nada.boulaares@gmail.com)
+[Please check my Resume for more details.](https://drive.google.com/file/d/1pRxb8qQWBMS1EiTPUVY0mpfwfSilLYAf/view?usp=sharing)
 
 ### Summary
 As an experienced data scientist, I specialize in machine learning, deep learning, and data visualization. My diverse project experience as a former Junior ML Engineer at Omdena, where I was promoted to lead the ML Engineering deployment task, has given me extensive knowledge in these areas. Additionally, I have worked as a data scientist intern with Dance4Healing, gaining expertise in AWS and completing various projects. I am highly proficient in Python programming language and have extensive knowledge of databases such as MySQL and MongoDB.
