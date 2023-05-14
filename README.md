@@ -4,13 +4,21 @@
 
 ### Summary
 As an experienced data scientist, I specialize in machine learning, deep learning, and data visualization. My diverse project experience as a former Junior ML Engineer at Omdena, where I was promoted to lead the ML Engineering deployment task, has given me extensive knowledge in these areas. Additionally, I have worked as a data scientist intern with Dance4Healing, gaining expertise in AWS and completing various projects. I am highly proficient in Python programming language and have extensive knowledge of databases such as MySQL and MongoDB.
+## Skills
+
+- Machine Learning (Advanced)
+- Deep Learning (Advanced)
+- Data Visualization (Advanced)
+- MongoDB (Advanced)
+- Python (Advanced)
+- AWS (Intermediate)
+- MySQL (Intermediate)
 
 ### Experience
 #### Lead ML Engineer, Omdena, New York, United States.
 ##### February 2023 - Now
 - Belyntic project: Development of Novel Self-adjuvant Vaccine for Progressive multifocal leukoencephalopathy.Coleading IN the deployment task (Streamlit, FastAPI).
-![](https://drive.google.com/file/d/1t5ebmmK_NJz9lLy5Fsy33tGDkS-DKrzx/view?usp=share_link)
-
+![belentic dashboard](BELENTIC.png)
 #### Data Science intern, Dance4Healing, California, United States.
 ##### August 2022 - Now
 - Integrating the recommendation system on AWS (AWS Personalize, S3, EC2).
