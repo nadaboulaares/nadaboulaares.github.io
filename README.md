@@ -40,10 +40,12 @@ As an experienced data scientist, I specialize in machine learning, deep learnin
 ##### April 2022 - February 2023
 ![image](omlor.png)
 - BigCodeGen project: Predicting Short-Term Traffic Flow Congestion on Urban Motorway Networks (Labeling datasets: image using Labelbox, Helping in create an object detection model using YOLOV7).
+ ![Bigcoden](b.png)
  ![Bigcoden certificate](bigcoden.png)
 - Dr CADx project: Reducing the Risk of Misdiagnosis of Chest X-rays with Deep Learning project (Collecting Data from many resources, joining EDA task).
 ![DR CADX certificate](drcadx.png)
 - Sysconverge project: Optimizing Energy Consumption for Real Estate Market With Computer Vision project (Collecting Data from many resources, Participating in preprocessing task and modeling task Labeling dataset using MakeSense.AI and Label Studio, helping in Create a object detection model: door,windows ,plumbing (YOLOv5)).
+ ![Sysconverge](s.png)
 ![Sysconverge certificate](sysconverge.png)
 - MangoSciences project: Using AI to support affordability of oncology immunotherapy treatments (Collect Data from many resources, Working in modeling task, Helping in create survival models, Create a cox-time model to predict PFS).
 
