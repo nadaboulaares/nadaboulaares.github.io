@@ -1,6 +1,9 @@
+<img src="nada_boulares.png" alt="Profile Picture" width="200"/>
+
 # Nada Boulares
+
 ## Data Scientist
-##How to reach me [My LinkedIn profile](https://www.linkedin.com/in/nada-boulares-83129214b/)  or [Gmail](nada.boulaares@gmail.com)
+## Reach me [My LinkedIn profile](https://www.linkedin.com/in/nada-boulares-83129214b/)  or [Gmail](nada.boulaares@gmail.com)
 
 ### Summary
 As an experienced data scientist, I specialize in machine learning, deep learning, and data visualization. My diverse project experience as a former Junior ML Engineer at Omdena, where I was promoted to lead the ML Engineering deployment task, has given me extensive knowledge in these areas. Additionally, I have worked as a data scientist intern with Dance4Healing, gaining expertise in AWS and completing various projects. I am highly proficient in Python programming language and have extensive knowledge of databases such as MySQL and MongoDB.
