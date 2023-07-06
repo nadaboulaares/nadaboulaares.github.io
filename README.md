@@ -60,15 +60,25 @@ predict progression-free survival (PFS).
 ![Mando](m.png)
 #### Data Science intern, Dance4Healing, California, United States.
 ##### August 2022 - Now
-- Integrating the recommendation system on AWS (AWS Personalize, S3, EC2).
-- Working on translating videos from the English language to Chinese (S3; AWS Transcribe; AWS Translate; AWS Elastic Transcoder).
-- Helping in building the project architecture; working with AWS RDS and AWS DynamoDB.
-- Building a Recommendation System using Machine Learning: K-Means; Scipy (Exploring the database of Dance4healing in MongoDB and downloading datasets, Generating data, Visualising Data: Seaborn; matplotlib, Creating a machine learning model to recommend the group of video of dance session using emotion, duration, and energy level, Deploying the model using Flask, and Push the code to the organization Github.
-- Helping in creating a user dashboard using Figma and matplotlib, Seaborn Python (Designing a new desktop).
+- Integrate a recommendation system on AWS using AWS Personalize, S3, and EC2, enhancing
+the user experience and driving personalized recommendations.
+- Applied matrix factorization techniques to solve the cold start problem, improving the
+system’s ability to make accurate recommendations for new users or items.
+- Assisted in building the project architecture, utilizing AWS RDS and AWS DynamoDB for
+efficient data storage and retrieval.
+- Developed a recommendation system using machine learning techniques such as K-Means
+and Scipy. Explored the Dance4healing database in MongoDB, downloaded relevant
+datasets, and performed data generation. Utilized data visualization libraries like Seaborn
+and Matplotlib. Created a machine learning model to recommend dance session videos
+based on factors such as emotion, duration, and energy level. Deployed the model using
+Flask and contributed to version control on the organization’s GitHub repository.
+- Contributed to the translation of videos from English to Chinese by leveraging AWS services
+such as S3, AWS Transcribe, AWS Translate, and AWS Elastic Transcoder, enabling
+multilingual accessibility.
+- Collaborated on creating a user dashboard, utilizing tools such as Figma and Python
+libraries like Matplotlib and Seaborn. Designed a new desktop interface to enhance user
+interaction and visual representation.
 
-
-#### ML Engineer, Omdena, New York, United States.
-##### April 2022 - February 2023
 
 
 #### Data Science and Business Analytics intern, Sparks Foundation, Singapore.
