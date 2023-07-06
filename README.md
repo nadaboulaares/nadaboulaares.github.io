@@ -30,7 +30,7 @@ outcomes and enhanced user experiences..
 ### Experience
 #### ML Engineer, Omdena, New York, United States.
 ##### April 2022 - Now
--Co-led the modeling task of the Minktek project Collaborated with a multidisciplinary
+- Co-led the modeling task of the Minktek project Collaborated with a multidisciplinary
 team to develop advanced models and algorithms, resulting in improved accuracy and
 personalized treatment plans.
 - Co-led the deployment task of the Belyntic project, Utilized Streamlit and FastAPI frame-
@@ -38,6 +38,26 @@ works to create user-friendly interfaces and ensure seamless integration. Additi
 conducted comprehensive data collection by leveraging web scraping techniques with Beau-
 tifulSoup and Selenium, enabling efficient data acquisition for the project.
 ![belentic dashboard](BELENTIC.png)
+![image](omlor.png)
+- Contributed to the BigCodeGen project, predicting short-term traffic flow congestion on
+urban motorway networks. Labeled datasets using Labelbox and assisted in creating an
+object detection model using YOLOv7..
+ ![Bigcoden](b.png)
+ ![Bigcoden certificate](bigcoden.png)
+- Participated in the Dr CADx project, focused on reducing the risk of misdiagnosis of chest X-rays with deep learning. Involved in data collection from various resources and contributed to exploratory data analysis.
+![DR CADX certificate](drcadx.png)
+- Contributed to the Sysconverge project, optimizing energy consumption for the real estate
+market using computer vision. Collected data from multiple sources, participated in
+preprocessing tasks and modeling, and labeled datasets using MakeSense.AI and Label
+Studio. Assisted in creating an object detection model for doors, windows, and plumbing
+using YOLOv5.
+ ![Sysconverge](s.png)
+![Sysconverge certificate](sysconverge.png)
+- Collaborated on the MangoSciences project, utilizing AI to support the affordability of
+oncology immunotherapy treatments. Collected data from various sources, worked on
+modeling tasks, and assisted in creating survival models. Developed a Cox-time model to
+predict progression-free survival (PFS).
+![Mando](m.png)
 #### Data Science intern, Dance4Healing, California, United States.
 ##### August 2022 - Now
 - Integrating the recommendation system on AWS (AWS Personalize, S3, EC2).
@@ -49,17 +69,7 @@ tifulSoup and Selenium, enabling efficient data acquisition for the project.
 
 #### ML Engineer, Omdena, New York, United States.
 ##### April 2022 - February 2023
-![image](omlor.png)
-- BigCodeGen project: Predicting Short-Term Traffic Flow Congestion on Urban Motorway Networks (Labeling datasets: image using Labelbox, Helping in create an object detection model using YOLOV7).
- ![Bigcoden](b.png)
- ![Bigcoden certificate](bigcoden.png)
-- Dr CADx project: Reducing the Risk of Misdiagnosis of Chest X-rays with Deep Learning project (Collecting Data from many resources, joining EDA task).
-![DR CADX certificate](drcadx.png)
-- Sysconverge project: Optimizing Energy Consumption for Real Estate Market With Computer Vision project (Collecting Data from many resources, Participating in preprocessing task and modeling task Labeling dataset using MakeSense.AI and Label Studio, helping in Create a object detection model: door,windows ,plumbing (YOLOv5)).
- ![Sysconverge](s.png)
-![Sysconverge certificate](sysconverge.png)
-- MangoSciences project: Using AI to support affordability of oncology immunotherapy treatments (Collect Data from many resources, Working in modeling task, Helping in create survival models, Create a cox-time model to predict PFS).
-![Mando](m.png)
+
 
 #### Data Science and Business Analytics intern, Sparks Foundation, Singapore.
 ##### Juin 2022 - Juillet 2022
