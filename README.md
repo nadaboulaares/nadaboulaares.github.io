@@ -7,8 +7,8 @@
 
 - Based in Tunisia
 - Open to remote job opportunities
-## Reach me [LinkedIn profile](https://www.linkedin.com/in/nada-boulares-83129214b/)  or [Gmail](nada.boulaares@gmail.com)
-[Please check my Resume for more details.](https://drive.google.com/file/d/1pRxb8qQWBMS1EiTPUVY0mpfwfSilLYAf/view?usp=sharing)
+## Reach me [LinkedIn profile](https://www.linkedin.com/in/nada-boulares-83129214b/)  or [Gmail](mailto:nada.boulaares@gmail.com)
+Please check [ my CV ](https://drive.google.com/file/d/1FlP3CBy2voSZ_SENq55foEYFDgHEkcMH/view?usp=sharing) for more details
 
 ### Summary
 Experienced data scientist specializing in machine learning, deep learning,
