@@ -11,7 +11,12 @@
 [Please check my Resume for more details.](https://drive.google.com/file/d/1pRxb8qQWBMS1EiTPUVY0mpfwfSilLYAf/view?usp=sharing)
 
 ### Summary
-As an experienced data scientist, I specialize in machine learning, deep learning, and data visualization. My diverse project experience as a former Junior ML Engineer at Omdena, where I was promoted to lead the ML Engineering deployment task, has given me extensive knowledge in these areas. Additionally, I have worked as a data scientist intern with Dance4Healing, gaining expertise in AWS and completing various projects. I am highly proficient in Python programming language and have extensive knowledge of databases such as MySQL and MongoDB.
+Experienced data scientist specializing in machine learning, deep learning,
+and data visualization. Proficient in Python programming and databases
+such as MySQL and MongoDB. Strong track record of developing and
+deploying models, integrating recommendation systems, and collaborating
+on impactful projects. Successfully delivered projects with measurable
+outcomes and enhanced user experiences..
 ## Skills
 
 - Machine Learning (Advanced)
@@ -23,9 +28,15 @@ As an experienced data scientist, I specialize in machine learning, deep learnin
 - MySQL (Intermediate)
 
 ### Experience
-#### Lead ML Engineer, Omdena, New York, United States.
-##### February 2023 - Now
-- Belyntic project: Development of Novel Self-adjuvant Vaccine for Progressive multifocal leukoencephalopathy.Coleading in the deployment task (Streamlit, FastAPI).
+#### ML Engineer, Omdena, New York, United States.
+##### April 2022 - Now
+-Co-led the modeling task of the Minktek project Collaborated with a multidisciplinary
+team to develop advanced models and algorithms, resulting in improved accuracy and
+personalized treatment plans.
+- Co-led the deployment task of the Belyntic project, Utilized Streamlit and FastAPI frame-
+works to create user-friendly interfaces and ensure seamless integration. Additionally,
+conducted comprehensive data collection by leveraging web scraping techniques with Beau-
+tifulSoup and Selenium, enabling efficient data acquisition for the project.
 ![belentic dashboard](BELENTIC.png)
 #### Data Science intern, Dance4Healing, California, United States.
 ##### August 2022 - Now
