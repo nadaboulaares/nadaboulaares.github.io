@@ -39,6 +39,8 @@ works to create user-friendly interfaces and ensure seamless integration. Additi
 conducted comprehensive data collection by leveraging web scraping techniques with Beau-
 tifulSoup and Selenium, enabling efficient data acquisition for the project.
 ![belentic dashboard](BELENTIC.png)
+![belen d](belyntic.png)
+
 - Contributed to the BigCodeGen project, predicting short-term traffic flow congestion on
 urban motorway networks. Labeled datasets using Labelbox and assisted in creating an
 object detection model using YOLOv7..
