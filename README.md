@@ -83,19 +83,23 @@ interaction and visual representation.
 
 #### Data Science and Business Analytics intern, Sparks Foundation, Singapore.
 ##### Juin 2022 - Juillet 2022
-- Data Analysis and Visualization.
-- Prediction using Decision Tree Algorithm.
-- Face mask detection using Opencv, Keras, Tensorflow.
+- Conducted data analysis and visualization to derive meaningful insights.
+- Employed decision tree algorithms for prediction tasks.
+- Developed a face mask detection system using OpenCV, Keras, and TensorFlow.
 ![compl certificate](sparks.png)
 ![LORSPARK certificate](lors.png)
 
 #### Data Science intern, REGIM Lab, Sfax, Tunisia.
 ##### February 2021 - September 2021
-- Realization of a deep learning model for facial recognition (Insightface, ArcFace).
-- Collection and preparation of data (to use the Mxnet library).
-- Preparation of face detection models (MTCNN, RetinaFace, Antelope).
-- Comparison of Mxnet pre trained models.
-- Deployment of the model in a mobile application (Flutter;Django).
+- Deployed the developed model in a mobile application using Flutter and Django, ensuring
+seamless integration and accessibility.
+- Successfully developed a deep learning model for facial recognition using Insightface and
+ArcFace algorithms, utilizing Nvidia, CUDA, TensorFlow, and Keras frameworks.
+- Conducted a comprehensive comparison of pre-trained models in the Mxnet framework to
+evaluate their performance and suitability for specific tasks.
+- Prepared face detection models, including MTCNN, RetinaFace, and Antelope, for accurate
+facial analysis and identification.
+- Collected and meticulously prepared data for use with the Mxnet library.
 ![image](bio1.png)
 ![image](bio2.png)
 
