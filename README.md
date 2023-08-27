@@ -34,6 +34,7 @@ outcomes and enhanced user experiences..
 - Co-led the modeling task of the Minktek project Collaborated with a multidisciplinary
 team to develop advanced models and algorithms, resulting in improved accuracy and
 personalized treatment plans.
+![minktec d](minktek.png)
 - Co-led the deployment task of the Belyntic project, Utilized Streamlit and FastAPI frame-
 works to create user-friendly interfaces and ensure seamless integration. Additionally,
 conducted comprehensive data collection by leveraging web scraping techniques with Beau-
