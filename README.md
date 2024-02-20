@@ -1,4 +1,4 @@
-<img src="nada_boulares.png" alt="Profile Picture" width="200"/>
+<img src="profile.jpgUpdate" alt="Profile Picture" width="200"/>
 
 # Nada Boulares
 
