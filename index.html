@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nada Boulares — AI / ML Engineer</title>
+<meta name="description" content="Nada Boulares — AI / ML Engineer specialising in machine learning, deep learning, NLP, knowledge graphs and computer vision.">
+<meta property="og:title" content="Nada Boulares — AI / ML Engineer">
+<meta property="og:description" content="Machine learning, deep learning, NLP, knowledge graphs and computer vision.">
+<meta property="og:image" content="https://nadaboulaares.github.io/profile.jpg">
+<link rel="icon" href="profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b1120; --bg2:#0f172a; --card:#111a2e; --line:#1e293b;
+    --text:#e2e8f0; --muted:#94a3b8; --accent:#34d399; --accent2:#22d3ee;
+    --radius:16px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .mono{font-family:"JetBrains Mono",monospace}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:50;background:rgba(11,17,32,.75);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;letter-spacing:-.02em}
+  .logo span{color:var(--accent)}
+  .links{display:flex;gap:28px;font-size:.92rem;color:var(--muted)}
+  .links a:hover{color:var(--text)}
+  @media(max-width:760px){.links{display:none}}
+
+  /* hero */
+  .hero{position:relative;padding:96px 0 80px;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:-40% -10% auto auto;width:720px;height:720px;
+    background:radial-gradient(circle,rgba(52,211,153,.18),transparent 60%);pointer-events:none}
+  .hero::after{content:"";position:absolute;inset:auto auto -50% -15%;width:640px;height:640px;
+    background:radial-gradient(circle,rgba(34,211,238,.12),transparent 60%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;align-items:center;position:relative;z-index:1}
+  @media(max-width:860px){.hero .wrap{grid-template-columns:1fr;text-align:center}.hero .photo{order:-1}}
+  .tag{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;
+    font-size:.82rem;color:var(--muted);background:rgba(17,26,46,.6)}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(52,211,153,.2)}
+  h1{font-size:clamp(2.6rem,6vw,4.2rem);line-height:1.05;letter-spacing:-.035em;font-weight:800;margin:22px 0 14px}
+  .grad{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .role{font-size:1.25rem;color:var(--muted);margin-bottom:26px}
+  .role b{color:var(--text);font-weight:600}
+  .lead{color:var(--muted);max-width:560px;margin-bottom:32px}
+  @media(max-width:860px){.lead{margin-left:auto;margin-right:auto}}
+  .btns{display:flex;gap:12px;flex-wrap:wrap}
+  @media(max-width:860px){.btns{justify-content:center}}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:12px;font-weight:600;font-size:.94rem;
+    border:1px solid var(--line);background:var(--card);transition:.2s}
+  .btn:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#04121c;border:none}
+  .btn svg{width:18px;height:18px}
+  .photo{justify-self:center;position:relative}
+  .photo .ring{width:300px;height:300px;border-radius:50%;padding:5px;background:conic-gradient(from 140deg,var(--accent),var(--accent2),transparent 70%,var(--accent))}
+  .photo img{width:100%;height:100%;border-radius:50%;object-fit:cover;border:6px solid var(--bg)}
+  @media(max-width:860px){.photo .ring{width:200px;height:200px}}
+
+  /* stats */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-16px}
+  @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;text-align:center}
+  .stat .n{font-size:2rem;font-weight:800;letter-spacing:-.03em}
+  .stat .l{color:var(--muted);font-size:.86rem}
+
+  /* sections */
+  section{padding:88px 0}
+  .eyebrow{color:var(--accent);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+  h2{font-size:clamp(1.8rem,3.5vw,2.4rem);letter-spacing:-.03em;margin:8px 0 40px;font-weight:800}
+
+  /* about + skills */
+  .about{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  @media(max-width:860px){.about{grid-template-columns:1fr}}
+  .about p{color:var(--muted);margin-bottom:16px}
+  .areas{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .area{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .area h4{font-size:.98rem;margin-bottom:4px}
+  .area p{font-size:.86rem;color:var(--muted);margin:0}
+  .area .ic{font-size:1.3rem;margin-bottom:8px}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+  .chip{padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--bg2);font-size:.85rem;color:#cbd5e1}
+  .skillgroup{margin-bottom:26px}
+  .skillgroup h5{font-size:.78rem;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+
+  /* timeline */
+  .timeline{position:relative;padding-left:32px}
+  .timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--accent),var(--line))}
+  .job{position:relative;margin-bottom:30px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px}
+  .job::before{content:"";position:absolute;left:-32px;top:30px;width:16px;height:16px;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+  .job .head{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}
+  .job h3{font-size:1.15rem}
+  .job .org{color:var(--accent);font-weight:600}
+  .job .when{font-size:.82rem;color:var(--muted);padding:4px 10px;border:1px solid var(--line);border-radius:8px}
+  .job ul{margin:14px 0 0 18px;color:var(--muted);font-size:.94rem}
+  .job li{margin-bottom:6px}
+  .job .where{font-size:.86rem;color:var(--muted)}
+  .badge-now{background:rgba(52,211,153,.12);color:var(--accent);border-color:rgba(52,211,153,.35)!important}
+
+  /* omdena projects */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:960px){.grid3{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:620px){.grid3{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+  .card:hover{transform:translateY(-4px);border-color:rgba(52,211,153,.5);box-shadow:0 20px 40px -20px rgba(52,211,153,.25)}
+  .card .thumb{aspect-ratio:16/10;background:#fff;overflow:hidden;cursor:zoom-in}
+  .card .thumb img{width:100%;height:100%;object-fit:cover;object-position:top;transition:.4s}
+  .card:hover .thumb img{transform:scale(1.04)}
+  .card .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .card h4{font-size:1.05rem}
+  .card .sub{font-size:.8rem;color:var(--accent);font-weight:600}
+  .card p{font-size:.9rem;color:var(--muted);flex:1}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+  .tags span{font-size:.72rem;padding:3px 9px;border-radius:6px;background:var(--bg2);border:1px solid var(--line);color:#cbd5e1}
+
+  /* github projects */
+  .repo{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;transition:.25s;display:flex;flex-direction:column;gap:8px}
+  .repo:hover{border-color:rgba(34,211,238,.5);transform:translateY(-3px)}
+  .repo .top{display:flex;justify-content:space-between;align-items:center;color:var(--muted)}
+  .repo h4{font-size:1rem}
+  .repo p{font-size:.88rem;color:var(--muted);flex:1}
+
+  /* certificates */
+  .certs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:960px){.certs{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:620px){.certs{grid-template-columns:1fr}}
+  .cert{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;cursor:zoom-in;transition:.25s}
+  .cert:hover{border-color:rgba(52,211,153,.5);transform:translateY(-3px)}
+  .cert img{aspect-ratio:4/3;object-fit:cover;object-position:top;background:#fff;width:100%}
+  .cert .meta{padding:14px 18px}
+  .cert .meta b{display:block;font-size:.95rem}
+  .cert .meta span{font-size:.8rem;color:var(--muted)}
+  .letters{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+
+  /* github activity */
+  .gh{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;text-align:center}
+  .gh img{margin:0 auto}
+  .gh .cal{background:#f8fafc;border-radius:12px;padding:20px;margin-bottom:22px;overflow-x:auto}
+  .gh .cal img{min-width:680px;width:100%}
+
+  /* contact */
+  .contact{text-align:center;background:linear-gradient(135deg,rgba(52,211,153,.12),rgba(34,211,238,.08));border:1px solid var(--line);border-radius:24px;padding:64px 24px}
+  .contact h2{margin-bottom:12px}
+  .contact p{color:var(--muted);margin-bottom:28px}
+  .contact .btns{justify-content:center}
+  footer{padding:36px 0;text-align:center;color:var(--muted);font-size:.85rem}
+
+  /* lightbox */
+  .lb{position:fixed;inset:0;background:rgba(2,6,23,.92);display:none;align-items:center;justify-content:center;z-index:100;padding:24px;cursor:zoom-out}
+  .lb.open{display:flex}
+  .lb img{max-height:90vh;max-width:92vw;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#" class="logo">Nada<span>.</span></a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#github">GitHub</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <span class="tag"><span class="dot"></span> Based in Tunisia · Open to remote opportunities</span>
+      <h1>Hi, I'm <span class="grad">Nada Boulares</span></h1>
+      <p class="role"><b>AI / ML Engineer</b> · Machine Learning · Deep Learning · NLP</p>
+      <p class="lead">I build machine-learning systems that go from raw data to production — knowledge graphs, semantic search, computer vision and recommender systems.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://drive.google.com/file/d/1MbBFZX-9ee7q1J6bury8K4yCd6wfOOxD/view?usp=sharing" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>Download CV</a>
+        <a class="btn" href="https://www.linkedin.com/in/nada-boulares-83129214b/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13M7.12 20.45H3.56V9h3.56zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0"/></svg>LinkedIn</a>
+        <a class="btn" href="https://github.com/nadaboulaares" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg>GitHub</a>
+        <a class="btn" href="mailto:nada.boulaares@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>Email</a>
+      </div>
+    </div>
+    <div class="photo"><div class="ring"><img src="profile.jpg" alt="Nada Boulares"></div></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stats reveal">
+    <div class="stat"><div class="n grad">3,500+</div><div class="l">GitHub contributions</div></div>
+    <div class="stat"><div class="n grad">6</div><div class="l">Omdena real-world AI challenges</div></div>
+    <div class="stat"><div class="n grad">5+</div><div class="l">Years building ML</div></div>
+    <div class="stat"><div class="n grad">20+</div><div class="l">Public projects</div></div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">About</div>
+    <h2>Turning data into intelligent products</h2>
+    <div class="about">
+      <div class="reveal">
+        <p>I'm an AI / ML engineer specialising in machine learning, deep learning and data visualisation. I enjoy the whole journey — collecting and cleaning data, designing models, and deploying them as reliable services that people actually use.</p>
+        <p>I've delivered projects in healthcare, smart cities, real estate and wellness, collaborating with international, multidisciplinary teams through Omdena, Dance4Healing, The Sparks Foundation and the REGIM Lab.</p>
+        <div class="skillgroup" style="margin-top:28px">
+          <h5>Languages</h5>
+          <div class="chips"><span class="chip">Python</span><span class="chip">TypeScript</span><span class="chip">JavaScript</span><span class="chip">SQL</span><span class="chip">Dart</span><span class="chip">PHP</span></div>
+        </div>
+        <div class="skillgroup">
+          <h5>AI / ML</h5>
+          <div class="chips"><span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">Keras</span><span class="chip">scikit-learn</span><span class="chip">Hugging Face</span><span class="chip">LangChain</span><span class="chip">OpenCV</span><span class="chip">YOLO</span></div>
+        </div>
+        <div class="skillgroup">
+          <h5>Data & Infra</h5>
+          <div class="chips"><span class="chip">Knowledge Graphs</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">MySQL</span><span class="chip">FastAPI</span><span class="chip">Flask</span><span class="chip">Streamlit</span><span class="chip">Docker</span><span class="chip">AWS</span></div>
+        </div>
+      </div>
+      <div class="areas reveal">
+        <div class="area"><div class="ic">🧠</div><h4>NLP & Knowledge Graphs</h4><p>Semantic search, entity extraction and LLM-powered applications.</p></div>
+        <div class="area"><div class="ic">👁️</div><h4>Computer Vision</h4><p>Face recognition, object detection (YOLO) and OCR.</p></div>
+        <div class="area"><div class="ic">🎯</div><h4>Recommender Systems</h4><p>Matrix factorisation, clustering and AWS Personalize.</p></div>
+        <div class="area"><div class="ic">📈</div><h4>Healthcare AI</h4><p>Survival models, medical imaging and patient analytics.</p></div>
+        <div class="area"><div class="ic">⚙️</div><h4>Production ML</h4><p>APIs, dashboards, Docker and cloud deployment.</p></div>
+        <div class="area"><div class="ic">📊</div><h4>Data Visualisation</h4><p>Interactive dashboards with Streamlit, Plotly and Seaborn.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="eyebrow">Experience</div>
+    <h2>Where I've worked</h2>
+    <div class="timeline">
+
+      <div class="job reveal">
+        <div class="head"><div><h3>AI / ML Engineer</h3><div class="org">Curriculo</div></div><span class="when badge-now">Present</span></div>
+      </div>
+
+      <div class="job reveal">
+        <div class="head"><div><h3>ML Engineer</h3><div class="org">Omdena <span class="where">· New York, United States (remote)</span></div></div><span class="when">Apr 2022 – 2023</span></div>
+        <ul>
+          <li>Worked on six real-world AI challenges with global teams of 20+ engineers — from data collection and labelling to modelling and deployment.</li>
+          <li>Led modelling on MinkTec and co-led deployment on Belyntic (Streamlit + FastAPI). <a href="#projects" style="color:var(--accent)">See projects ↓</a></li>
+        </ul>
+      </div>
+
+      <div class="job reveal">
+        <div class="head"><div><h3>Data Science Intern</h3><div class="org">Dance4Healing <span class="where">· California, United States (remote)</span></div></div><span class="when">Aug 2022 – 2023</span></div>
+        <ul>
+          <li>Integrated a recommendation system on AWS (Personalize, S3, EC2) and tackled the cold-start problem with matrix factorisation.</li>
+          <li>Built a model recommending dance sessions by emotion, duration and energy level, deployed with Flask; architecture on AWS RDS and DynamoDB.</li>
+          <li>Enabled multilingual video (English → Chinese) with AWS Transcribe, Translate and Elastic Transcoder, and designed a user dashboard in Figma.</li>
+        </ul>
+      </div>
+
+      <div class="job reveal">
+        <div class="head"><div><h3>Data Science & Business Analytics Intern</h3><div class="org">The Sparks Foundation <span class="where">· Singapore (remote)</span></div></div><span class="when">Jun 2022 – Jul 2022</span></div>
+        <ul>
+          <li>Data analysis and visualisation, decision-tree prediction, and a face-mask detection system with OpenCV, Keras and TensorFlow.</li>
+        </ul>
+      </div>
+
+      <div class="job reveal">
+        <div class="head"><div><h3>Data Science Intern</h3><div class="org">REGIM Lab <span class="where">· Sfax, Tunisia</span></div></div><span class="when">Feb 2021 – Sep 2021</span></div>
+        <ul>
+          <li>Developed a facial-recognition model with InsightFace / ArcFace (CUDA, TensorFlow, Keras) and benchmarked pre-trained MXNet models.</li>
+          <li>Prepared MTCNN, RetinaFace and Antelope face detectors and deployed the model in a Flutter + Django mobile app.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="eyebrow">Projects</div>
+    <h2>Real-world AI challenges</h2>
+    <div class="grid3">
+      <div class="card reveal"><div class="thumb" data-full="minktek.png"><img src="minktek.png" alt="MinkTec" loading="lazy"></div><div class="body"><span class="sub">Lead ML Engineer · Healthcare</span><h4>MinkTec</h4><p>Quantifying causes of back pain and providing individualised recommendations with unsupervised learning.</p><div class="tags"><span>Clustering</span><span>Sensor data</span><span>Python</span></div></div></div>
+      <div class="card reveal"><div class="thumb" data-full="BELENTIC.png"><img src="BELENTIC.png" alt="Belyntic" loading="lazy" style="object-fit:contain;padding:16px"></div><div class="body"><span class="sub">Deployment co-lead · Biotech</span><h4>Belyntic</h4><p>Data pipeline and Streamlit / FastAPI interface to rank peptides for precision vaccine development.</p><div class="tags"><span>Streamlit</span><span>FastAPI</span><span>Selenium</span></div></div></div>
+      <div class="card reveal"><div class="thumb" data-full="b.png"><img src="b.png" alt="BigCodeGen smart traffic" loading="lazy"></div><div class="body"><span class="sub">ML Engineer · Smart cities</span><h4>BigCodeGen</h4><p>Predicting short-term traffic congestion on urban motorways from traffic-camera images.</p><div class="tags"><span>YOLOv7</span><span>Labelbox</span><span>CV</span></div></div></div>
+      <div class="card reveal"><div class="thumb" data-full="drcadx.png"><img src="drcadx.png" alt="Dr CADx" loading="lazy"></div><div class="body"><span class="sub">ML Engineer · Medical imaging</span><h4>Dr CADx</h4><p>Deep learning to reduce misdiagnosis risk — detecting abnormalities in medical images.</p><div class="tags"><span>Deep Learning</span><span>EDA</span><span>Imaging</span></div></div></div>
+      <div class="card reveal"><div class="thumb" data-full="s.png"><img src="s.png" alt="SysConverge floor plan detection" loading="lazy"></div><div class="body"><span class="sub">ML Engineer · Real estate</span><h4>SysConverge</h4><p>Detecting doors, windows and plumbing in 2D floor plans to optimise building energy consumption.</p><div class="tags"><span>YOLOv5</span><span>Label Studio</span><span>CV</span></div></div></div>
+      <div class="card reveal"><div class="thumb" data-full="m.png"><img src="m.png" alt="MangoSciences dashboard" loading="lazy"></div><div class="body"><span class="sub">ML Engineer · Oncology</span><h4>MangoSciences</h4><p>Survival models (Cox-Time) predicting progression-free survival to support affordable immunotherapy.</p><div class="tags"><span>Survival analysis</span><span>Cox-Time</span><span>Dashboards</span></div></div></div>
+    </div>
+
+    <h2 style="margin-top:80px">Open-source work</h2>
+    <div class="grid3">
+      <a class="repo reveal" href="https://github.com/nadaboulaares/OCR-Application-with-Streamlit" target="_blank" rel="noopener"><div class="top"><span class="mono">repo</span><span>↗</span></div><h4>OCR App with Streamlit</h4><p>Extract and clean text from images with EasyOCR in an interactive web app.</p><div class="tags"><span>EasyOCR</span><span>Streamlit</span></div></a>
+      <a class="repo reveal" href="https://github.com/nadaboulaares/vanna.ai-streamlit" target="_blank" rel="noopener"><div class="top"><span class="mono">repo</span><span>↗</span></div><h4>Text-to-SQL with Vanna.ai</h4><p>Ask a database questions in plain English with LLM-generated SQL.</p><div class="tags"><span>LLMs</span><span>SQL</span></div></a>
+      <a class="repo reveal" href="https://github.com/nadaboulaares/Recommendation-system-react-flask" target="_blank" rel="noopener"><div class="top"><span class="mono">repo</span><span>↗</span></div><h4>Recommendation System</h4><p>Full-stack recommender — ML model served by Flask with a React front-end.</p><div class="tags"><span>Flask</span><span>React</span></div></a>
+      <a class="repo reveal" href="https://github.com/nadaboulaares/Electronic-Defects-Dashboard" target="_blank" rel="noopener"><div class="top"><span class="mono">repo</span><span>↗</span></div><h4>Electronic Defects Dashboard</h4><p>Interactive analytics of defect distributions and trends over time.</p><div class="tags"><span>Streamlit</span><span>Pandas</span></div></a>
+      <a class="repo reveal" href="https://github.com/nadaboulaares/TSF_GRIP_face_mask_detection" target="_blank" rel="noopener"><div class="top"><span class="mono">repo</span><span>↗</span></div><h4>Face Mask Detection</h4><p>Real-time face mask detection with OpenCV and a CNN classifier.</p><div class="tags"><span>OpenCV</span><span>TensorFlow</span></div></a>
+      <a class="repo reveal" href="https://github.com/nadaboulaares/Na-ve-Bees-Deep-Learning-with-Images" target="_blank" rel="noopener"><div class="top"><span class="mono">repo</span><span>↗</span></div><h4>Naïve Bees</h4><p>CNN image classifier distinguishing honey bees from bumble bees.</p><div class="tags"><span>Keras</span><span>CNN</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section id="certifications" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="eyebrow">Certifications</div>
+    <h2>Certificates of achievement</h2>
+    <div class="certs">
+      <div class="cert reveal" data-full="minktek.png"><img src="minktek.png" alt="MinkTec certificate" loading="lazy"><div class="meta"><b>Omdena · MinkTec</b><span>Lead ML Engineer · Aug 2023</span></div></div>
+      <div class="cert reveal" data-full="belyntic.png"><img src="belyntic.png" alt="Belyntic certificate" loading="lazy"><div class="meta"><b>Omdena · Belyntic</b><span>Junior ML Engineer · May 2023</span></div></div>
+      <div class="cert reveal" data-full="bigcoden.png"><img src="bigcoden.png" alt="BigCodeGen certificate" loading="lazy"><div class="meta"><b>Omdena · BigCodeGen</b><span>Junior ML Engineer · Mar 2023</span></div></div>
+      <div class="cert reveal" data-full="drcadx.png"><img src="drcadx.png" alt="Dr CADx certificate" loading="lazy"><div class="meta"><b>Omdena · Dr CADx</b><span>Junior ML Engineer · Nov 2022</span></div></div>
+      <div class="cert reveal" data-full="sysconverge.png"><img src="sysconverge.png" alt="SysConverge certificate" loading="lazy"><div class="meta"><b>Omdena · SysConverge</b><span>ML Engineer · Sep 2022</span></div></div>
+      <div class="cert reveal" data-full="sparks.png"><img src="sparks.png" alt="Sparks Foundation certificate" loading="lazy"><div class="meta"><b>The Sparks Foundation</b><span>Data Science & BA Intern · 2022</span></div></div>
+    </div>
+    <div class="letters">
+      <a class="btn" href="omlor.png" data-full="omlor.png">📜 Omdena recommendation letter</a>
+      <a class="btn" href="lors.png" data-full="lors.png">📜 Sparks Foundation recommendation letter</a>
+      <a class="btn" href="Omdena Certificate_Nada Boulares  (2).pdf" target="_blank" rel="noopener">📄 Omdena certificate (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<section id="github">
+  <div class="wrap">
+    <div class="eyebrow">GitHub</div>
+    <h2>Contribution activity</h2>
+    <div class="gh reveal">
+      <div class="cal"><img src="https://ghchart.rshah.org/34d399/nadaboulaares" alt="GitHub contribution calendar" loading="lazy"></div>
+      <img src="https://streak-stats.demolab.com?user=nadaboulaares&background=111a2e&border=1e293b&ring=34d399&fire=22d3ee&currStreakLabel=34d399&sideLabels=94a3b8&dates=64748b&currStreakNum=e2e8f0&sideNums=e2e8f0&stroke=1e293b&border_radius=12&hide_border=true" alt="GitHub streak stats" loading="lazy">
+      <div class="btns" style="justify-content:center;margin-top:22px"><a class="btn" href="https://github.com/nadaboulaares" target="_blank" rel="noopener">View GitHub profile ↗</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="contact reveal">
+      <div class="eyebrow">Contact</div>
+      <h2>Let's build something intelligent</h2>
+      <p>Open to remote opportunities and collaborations in ML, NLP and knowledge graphs.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:nada.boulaares@gmail.com">Say hello</a>
+        <a class="btn" href="https://www.linkedin.com/in/nada-boulares-83129214b/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://drive.google.com/file/d/1MbBFZX-9ee7q1J6bury8K4yCd6wfOOxD/view?usp=sharing" target="_blank" rel="noopener">CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© <span id="y"></span> Nada Boulares · Built with care</footer>
+
+<div class="lb" id="lb"><img alt=""></div>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+  const lb = document.getElementById('lb'), lbImg = lb.querySelector('img');
+  document.querySelectorAll('[data-full]').forEach(el => el.addEventListener('click', e => {
+    e.preventDefault(); lbImg.src = el.dataset.full; lb.classList.add('open');
+  }));
+  lb.addEventListener('click', () => lb.classList.remove('open'));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('open'); });
+  const io = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { x.target.classList.add('in'); io.unobserve(x.target); } }), {threshold: .12});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
